@@ -3,27 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keevi Hicks - Resume</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Keevi Hicks - Army Themed Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="resume">
-        <h1>Keevi Hicks</h1>
-        <p>Software Development Engineer | Army Veteran | Cloud & Mainframe Specialist</p>
-
-        <h2>Technical Skills</h2>
+    <header>
+        <h1 class="title">Keevi Hicks</h1>
+        <p class="subtitle">Software Engineer | Army Veteran | Cloud & Mainframe Specialist</p>
+        <input type="text" id="search" placeholder="Search Resume...">
+    </header>
+    
+    <nav>
         <ul>
-            <li>HTML CSS</li>
-            <li>Mainframe Development (JCL, IBM Systems)</li>
-            <li>AWS Cloud Engineering (Certified)</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-
-        <h2>Experience</h2>
-        <p><strong>Fiserv - Software Development Engineer I</strong></p>
-        <p>Developing scalable financial applications and optimizing enterprise systems.</p>
-
-        <h2>Download Resume</h2>
-        <p><a href="Keevi_Hicks_Resume.pdf" download>Click here to download my resume (PDF)</a></p><h2>
+    </nav>
+    
+    <section id="about" class="content searchable-section">
+        <h2>Mission Briefing</h2>
+        <p>Veteran software engineer with expertise in automation, cloud computing, and process optimization. Passionate about creating efficient systems and reducing manual effort through technology.</p>
     </section>
+    
+    <section id="skills" class="content searchable-section">
+        <h2>Technical Arsenal</h2>
+        <ul>
+            <li>Python, JavaScript, HTML, CSS, JCL, Visual Basic</li>
+            <li>AWS Cloud (Certified Cloud Engineer)</li>
+            <li>IBM Mainframe Systems</li>
+        </ul>
+    </section>
+    
+    <section id="experience" class="content searchable-section">
+        <h2>Combat Experience</h2>
+        <p>Experience leading software development projects with a focus on process optimization, cloud computing, and automation tools.</p>
+    </section>
+    
+    <section id="projects" class="content searchable-section">
+        <h2>Mission Accomplishments</h2>
+        <p>Projects that showcase my skills in automation and cloud computing.</p>
+    </section>
+    
+    <section id="contact" class="content searchable-section">
+        <h2>Contact Info</h2>
+        <p>Email: kgcodes.42@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Keevi Hicks. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
